@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Mooli&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.logo {
+    width: 100%;
+    height: 500px;
+}
+
+.filme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+ div img{
+    border-radius: 45px;
+    margin: 2rem;
+ }
+
+footer{
+    background-color: black;
+    height: 2rem;
+}
+
+ h4{
+    font-family: 'Mooli', sans-serif;
+    color: white;
+    background-color: black;
+ }
